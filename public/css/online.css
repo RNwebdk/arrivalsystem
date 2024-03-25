@@ -1,0 +1,109 @@
+.card-box {
+    position: relative;
+    color: #fff;
+    padding: 20px 10px 40px;
+    margin: 20px 0px;
+    min-height: 400px;
+}
+/*.card-box:hover {
+    text-decoration: none;
+    color: #f1f1f1;
+}*/
+.card-box .icon i {
+    font-size: 1em;
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+
+.card-box h3{
+    color: white;
+}
+.card-box .inner {
+    padding: 5px 10px 0 10px;
+}
+.card-box .icon {
+    position: absolute;
+    top: 15px;
+    bottom: 0px;
+    right: 25px;
+    z-index: 0;
+    font-size: 72px;
+    color: rgba(0, 0, 0, 0.55);
+}
+.card-box .card-box-footer {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    padding: 3px 0;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-decoration: none;
+}
+
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: .25rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
+}
+
+.card-box .pupil h6{
+    color: #fff;
+    border: 1px solid white;
+}
+
+.me-2 {
+    margin-right: .5rem!important;
+}
+
+
+.bg-blue {
+    background-color: #00c0ef !important;
+}
+.bg-green {
+    background-color: #00a65a !important;
+}
+.bg-orange {
+    background-color: #f39c12 !important;
+}
+.bg-red {
+    background-color: #d9534f !important;
+}
+.bg-purple{
+    background-color: #aa66cc;
+}
+
+.bg-bluegreen{
+    background-color: #27ae60;
+}
+
+.bg-orange{
+    background-color: #e67e22;
+}
+
+
+
+.checkedIn, .checkedOut{    
+    width: 16px;
+    height: 19px;
+    /*display: inline-block;*/
+    /*border-radius: 15px;*/
+    float: right;
+}
+
+.checkedIn{
+    background-color: #00a65a;
+}
+
+.checkedOut{
+    background-color: #d9534f;
+}
